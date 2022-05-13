@@ -2,6 +2,12 @@
 
 A Go linter that enforces more strict members access rules inside packages.
 
+# Installation
+
+```bash
+$ go install github.com/quasilyte/fileprivate/cmd/fileprivate
+```
+
 # What exactly does it do?
 
 It checks that **unexported** types **unexported** members are not accessed wildly inside a signle package.
