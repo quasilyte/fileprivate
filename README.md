@@ -5,7 +5,7 @@ A Go linter that enforces more strict members access rules inside packages.
 ## Installation
 
 ```bash
-$ go install github.com/quasilyte/fileprivate/cmd/fileprivate
+$ go install github.com/quasilyte/fileprivate/cmd/fileprivate@latest
 ```
 
 ## How to use?
