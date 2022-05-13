@@ -2,13 +2,13 @@
 
 A Go linter that enforces more strict members access rules inside packages.
 
-# Installation
+## Installation
 
 ```bash
 $ go install github.com/quasilyte/fileprivate/cmd/fileprivate
 ```
 
-# How to use?
+## How to use?
 
 Run it over a package(s) you want to check.
 
@@ -20,7 +20,7 @@ $ fileprivate ./dbconn
 $ fileprivate ./...
 ```
 
-# What exactly does it do?
+## What exactly does it do?
 
 It checks that **unexported** types **unexported** members are not accessed wildly inside a signle package.
 
