@@ -8,6 +8,18 @@ A Go linter that enforces more strict members access rules inside packages.
 $ go install github.com/quasilyte/fileprivate/cmd/fileprivate
 ```
 
+# How to use?
+
+Run it over a package(s) you want to check.
+
+```bash
+# Check "dbconn" package:
+$ fileprivate ./dbconn
+
+# Check all packages reachable from this root:
+$ fileprivate ./...
+```
+
 # What exactly does it do?
 
 It checks that **unexported** types **unexported** members are not accessed wildly inside a signle package.
